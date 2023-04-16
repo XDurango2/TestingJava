@@ -16,6 +16,7 @@ public class ActividadDados {
         Scanner scString = new Scanner(System.in);
         boolean confirmContinue = true;
         HashSet<dado> DadosGuardados = new HashSet<>();
+        
         do{
         System.out.println("ingrese la cantidad de dados a generar: ");
         int cantidadDados = sc.nextInt();
@@ -37,7 +38,9 @@ public class ActividadDados {
                  confirmContinue = false;
                  
              }
-    }while(confirmContinue=false);
+             
+        }while(confirmContinue);
         }
+    
 }
 
