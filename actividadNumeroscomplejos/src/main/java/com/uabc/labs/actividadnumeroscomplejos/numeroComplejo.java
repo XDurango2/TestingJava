@@ -32,6 +32,11 @@ public class numeroComplejo {
     public void setNumeroImaginario(double numeroImaginario) {
         this.numeroImaginario = numeroImaginario;
     }
+
+    @Override
+    public String toString() {
+        return numeroReal+"+"+numeroImaginario+"i";
+    }
     public numeroComplejo suma(numeroComplejo numero2){
         double ResultadoReal= this.numeroReal+numero2.numeroReal;
         double ResultadoImaginario = this.numeroImaginario+ numero2.numeroImaginario;
