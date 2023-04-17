@@ -6,8 +6,10 @@ package com.uabc.labs.practicax;
 import java.util.ArrayList;
 import java.util.Random;
 /**
- *
- * @author us
+ * en esta clase se crea un arraylist que sera llenada con numeros aleatorios del 0 al 11 y se 
+ * determinaran los numeros que se repitieron, la cantidad de veces que se repitieron y se mostraran
+ * en la pantalla
+ * @author Hector Duran
  */
 public class Numeros {
     private ArrayList <Integer> listaNumeros;

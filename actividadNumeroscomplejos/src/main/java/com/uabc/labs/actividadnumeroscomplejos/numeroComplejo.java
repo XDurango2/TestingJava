@@ -4,9 +4,9 @@
  */
 package com.uabc.labs.actividadnumeroscomplejos;
 
-/**
+/** en esta clase se define que es un numero complejo y aqui se realizan las operaciones con ellas
  *
- * @author us
+ * @author Hector Duran
  */
 public class numeroComplejo {
     private double numeroReal;
@@ -37,24 +37,24 @@ public class numeroComplejo {
     public String toString() {
         return numeroReal+"+"+numeroImaginario+"i";
     }
-    public numeroComplejo suma(numeroComplejo numero2){
+    public numeroComplejo suma(numeroComplejo numero2){ //aqui se realiza la suma de numeros complejos 
         double ResultadoReal= this.numeroReal+numero2.numeroReal;
         double ResultadoImaginario = this.numeroImaginario+ numero2.numeroImaginario;
         return new numeroComplejo(ResultadoReal,ResultadoImaginario);
     }
-    public numeroComplejo resta(numeroComplejo numero2){
+    public numeroComplejo resta(numeroComplejo numero2){ // aqui se realiza la resta de numeros complejos
         double ResultadoReal= this.numeroReal-numero2.numeroReal;
         double ResultadoImaginario= this.numeroImaginario-numero2.numeroImaginario;
         return new numeroComplejo(ResultadoReal,ResultadoImaginario);
         
     }
-    public numeroComplejo multiplicar(numeroComplejo otro) {
+    public numeroComplejo multiplicar(numeroComplejo otro) { // aqui se realiza la multiplicacion de numeros complejos
         double realResultado = (this.numeroReal * otro.numeroReal) - (this.numeroImaginario * otro.numeroImaginario);
         double imaginarioResultado = (this.numeroReal * otro.numeroImaginario) + (this.numeroImaginario * otro.numeroReal);
         return new numeroComplejo(realResultado, imaginarioResultado);
     }
 
-    public numeroComplejo dividir(numeroComplejo otro) {
+    public numeroComplejo dividir(numeroComplejo otro) { //aqui se realiza la division de numeros complejos
         double denominador = (otro.numeroReal * otro.numeroReal) + (otro.numeroImaginario * otro.numeroImaginario);
         double realResultado = ((this.numeroReal * otro.numeroReal) + (this.numeroImaginario * otro.numeroImaginario)) / denominador;
         double imaginarioResultado = ((this.numeroImaginario * otro.numeroReal) - (this.numeroReal * otro.numeroImaginario)) / denominador;

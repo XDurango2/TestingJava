@@ -5,8 +5,10 @@
 package com.uabc.labs.actividadbaraja;
 import java.util.Scanner;
 /**
- *
- * @author us
+ * en este programa se genera una baraja y muestra una carta en la pantalla
+ * y la la carta mostrada se elimina de la baraja
+ * 
+ * @author Hector Duran
  */
 public class ActividadBaraja {
 

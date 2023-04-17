@@ -9,8 +9,9 @@ import java.util.Random;
 
 
 /**
- *
- * @author us
+ *  en esta clase se define el comportamiento de una baraja de cartas,
+ *  crea las cartas con la clase carta y las guardan en un arraylist
+ * @author Hector Duran
  */
 public class baraja {
     ArrayList <carta> barajaCartas ;

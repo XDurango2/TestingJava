@@ -5,10 +5,10 @@
 package com.uabc.labs.practicax;
 
 /**
- *
- * @author us
+ * aqui se ejecuta el programa creando un objeto numeros 
+ * @author Hector Duran
  */
-public class PracticaX {
+public class ActividadNumerosRepetidos {
 
     public static void main(String[] args) {
         Numeros numero1= new Numeros();

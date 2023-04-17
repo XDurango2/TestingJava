@@ -5,8 +5,8 @@
 package com.uabc.labs.actividadmoneda;
 import java.util.Random;
 /**
- *
- * @author us
+ *  en esta clase se determina el comportamiento de una moneda y muestra la cara visible en base a un objeto random
+ * @author Hector Duran
  */
 public class moneda {
     boolean estaVolteado=false;

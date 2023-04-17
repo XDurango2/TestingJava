@@ -6,8 +6,12 @@ package com.uabc.labs.actividaddados;
 import java.util.HashSet;
 import java.util.Scanner;
 /**
- *
- * @author us
+ *  en este programa se replica el comportamiento de un dado
+ *  en base a la cantidad de dados asignados por el jugador
+ *  y los guardan en un arraylist 
+ * 
+ * 
+ * @author Hector Duran
  */
 public class ActividadDados {
 

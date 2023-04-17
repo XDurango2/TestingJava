@@ -6,8 +6,9 @@ package com.uabc.labs.actividadmoneda;
 import java.util.ArrayList;
 import java.util.Scanner;
 /**
- *
- * @author us
+ * en este programa se determinaran la cantidad de veces que una moneda da sello o aguila
+ * en base a lo que determina el usuario
+ * @author Hector Duran
  */
 public class ActividadMoneda {
     

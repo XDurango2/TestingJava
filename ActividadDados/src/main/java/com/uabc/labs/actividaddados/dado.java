@@ -5,8 +5,10 @@
 package com.uabc.labs.actividaddados;
 import java.util.Random;
 /**
- *
- * @author us
+ *  en esta clase se define el comportamiento de un dado
+ *  y determina el lado visible a traves de un random
+ * 
+ * @author Hector Duran
  */
 public final class dado {
     private int cantidadLados= 6;

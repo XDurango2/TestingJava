@@ -6,8 +6,10 @@ package com.uabc.labs.actividadbaraja;
 
 
 /**
- *
- * @author us
+ * en esta clase define el comportamiento de una clase de una carta de una baraja 
+ * 
+ * 
+ * @author Hector Duran
  */
 public class carta {
     private String valor;
